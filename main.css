@@ -193,7 +193,6 @@ nav ul li a:hover {
     width: 1170px;
     height: 766px;
     margin: 0 auto;
-
     padding: 0 30px;
     max-width: 1170px;
 }
@@ -230,7 +229,6 @@ nav ul li a:hover {
 .link-image:after {
     
   /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(177, 177, 177, 0.5) 35%, rgba(255, 255, 255, 0.5) 100%); */
-  
 }
 
 .featured-large:nth-child(1) {
@@ -266,10 +264,9 @@ nav ul li a:hover {
     box-sizing: border-box;
     opacity: 0.85;
     overflow: hidden;
-
 }
 
-.featured-o:nth-child(2,3,4){
+.featured-o:nth-child(2,3,4) {
     box-sizing: border-box;
     padding: 20px;
     bottom: 0;
@@ -510,13 +507,11 @@ img {
     line-height: 24px;
     left: 0;
     bottom: -1px;
-
 }
 
 .post-date i {
     margin-right: 4px;
     font-size: 10px;
-
 }
 
 .post-date .date-divider {
@@ -541,8 +536,6 @@ img {
     width: 13px;
     height: 13px;
     line-height: 1;
-
-    
 }
 
 .post-category {
@@ -658,11 +651,9 @@ nav {
 }
 
 .searchform div {
-
     position: absolute;
     font-size: 14px;
     color: #ccc;
-
 }
 
 .input-search2 {
@@ -679,7 +670,6 @@ nav {
 }
 
 .input-search2:focus {
-
     border-color: #ccc;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
 }
@@ -866,7 +856,6 @@ padding: 0;
     padding: 0 30px;
     min-width: 320px;
     max-width: 1170px;
-
 }
 
 .menu-item {
@@ -889,6 +878,44 @@ padding: 0;
 
 #nav-footer .nav li a {
     color: rgba(255,255,255,0.7);
+}
+
+#footer-bottom {
+    height: 75%;
+    box-sizing: border-box;
+}
+
+#footer-bottom .container {
+    height: 100%;
+    box-sizing: inherit;
+    text-align: center;
+}
+
+#footer-bottom #back-to-top {
+    width: 120px;
+    height: 30px;
+    background-color: #333;
+    color: #777;
+    box-sizing: inherit;
+    margin: 0 auto -30px;
+    border-radius: 0 0 3px 3px;
+    display: block;
+    
+}
+
+#footer-bottom .container a {
+    text-decoration: none;
+    font-family: FontAwesome;
+    color: #555;
+    font-size: 28px;
+    box-sizing: inherit;
+    display: inline-block;
+    text-rendering: auto;
+    width: 1em;
+}
+
+#footer-bottom #back-to-top i {
+    position: relative;
 }
 
 /*--/footer--*/
