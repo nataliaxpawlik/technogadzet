@@ -4,10 +4,6 @@ html, body {
     padding: 0px 0px;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     /* min-height: 100%; */
     font-family: Arial;
@@ -918,13 +914,50 @@ padding: 0;
     position: relative;
 }
 
-.pad-group {
+.pad {
     height: 100%;
     padding: 30px;
+    width: 100%;
 }
 
 #footer-bottom #copyright p {
     color: rgba(255,255,255,0.6);
     font-size: 14px;
+}
+
+#footer-bottom .social-links .social-tooltip {
+    font-size: 24px;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+.grid {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.social-links {
+    float: right;
+    position: relative;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-left: 8px;
+    line-height: 16px;
+    font-size: 0;
+}
+
+.social-links li a {
+    display: block;
+    text-align: center;
 }
 /*--/footer--*/
